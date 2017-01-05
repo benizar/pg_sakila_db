@@ -1,0 +1,38 @@
+{
+   "name": "pg_sakila_db",
+   "abstract": "pg_sakila_db is a PostgreSQL extension for deploying a port of the Sakila example database.",
+   "description": "pg_sakila_db is a PostgreSQL extension for deploying a port of the Sakila example database.",
+   "version": "0.0.1",
+   "maintainer": [
+      "Benito M. Zaragozí <benizar@gmail.com>"
+   ],
+   "license": "GPL3",
+   "provides": {
+      "pg_sakila_db": {
+         "abstract": "pg_sakila_db is a PostgreSQL extension for deploying a port of the Sakila example database.",
+         "file": "pg_sakila_db.sql",
+         "docfile": "doc/pg_sakila_db.md",
+         "version": "0.0.1"
+      }
+   },
+   "resources": {
+      "homepage": "http://www.benito-zaragozi.com/",
+      "bugtracker": {
+         "web": "https://github.com/benizar/pg_sakila_db/issues"
+      },
+      "repository": {
+        "url":  "git://github.com/benizar/pg_sakila_db.git",
+        "web":  "https://github.com/benizar/pg_sakila_db",
+        "type": "git"
+      }
+   },
+   "generated_by": "Benito M. Zaragozí",
+   "meta-spec": {
+      "version": "1.0.0",
+      "url": "http://pgxn.org/meta/spec.txt"
+   },
+   "tags": [
+      "example database",
+      "sakila"
+   ]
+}

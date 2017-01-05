@@ -1,0 +1,4 @@
+comment = 'pg_example_db is a PostgreSQL extension for creating example databases.'
+default_version = '0.0.1'
+relocatable = true
+requires = 'plpgsql'
